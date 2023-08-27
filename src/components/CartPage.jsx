@@ -18,7 +18,7 @@ function CartPage() {
     return (
       <div className="cart-container">
         <h2 className="cart-title">Cart Items</h2>
-        <p>Your cart is empty.</p>
+        <p>Your cart is empty!!!</p>
         <FaShoppingCart className="empty-cart-icon" />
         <p>Select home to Add items to your cart</p>
       </div>
