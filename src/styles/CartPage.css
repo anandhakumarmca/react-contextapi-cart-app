@@ -1,0 +1,163 @@
+.cart-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.cart-title {
+  font-size: 24px;
+  text-align: left;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.item-image img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h3 {
+  text-align: left;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.item-details p {
+  text-align: left;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.item-functionality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 45px;
+}
+
+.item-quantity {
+  margin: 0 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.item-price {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.remove-button-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.remove-button {
+  background: white;
+  color: red;
+  border: none;
+  padding: 5px 10px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtotal,
+.shopping,
+.total {
+  font-size: 15px;
+  font-weight: bold; /* Make the labels bold */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.shopping {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.subtotal-label,
+.shopping-label {
+  color: #868585;
+}
+
+.subtotal-value,
+.total-value {
+  font-weight: bold; /* Make the values bold */
+}
+
+.empty-cart-icon {
+  font-size: 48px; /* Adjust the size as needed */
+  color: #646cff; /* Set the color */
+  margin-top: 20px; /* Add some spacing */
+}
+
+@media (max-width: 768px) {
+  .cart-title {
+    font-size: 20px;
+  }
+
+  .item-image img {
+    max-width: 80px;
+  }
+
+  .item-details h3 {
+    font-size: 14px;
+  }
+
+  .item-details p {
+    font-size: 10px;
+  }
+
+  .item-quantity {
+    font-size: 12px;
+  }
+
+  .item-price {
+    font-size: 13px;
+  }
+
+  .remove-button {
+    padding: 3px 8px;
+    font-size: 10px;
+  }
+}
